@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bill Splitting</title>
+    <link rel="stylesheet" type="text/css" href="/bill.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">Bill Splitter</div>
+        <br>
+        <br>
+      <form class="Insert_Value"> <!-- allows a user to enter data that is sent to a server for processing-->
+        <label id="Total_Amount"><i class="Bill_Total"></i>How much? <br> <br> </label>
+        <input type="number" id="total" placeholder="add the total">
+        <br>
+        <br>
+
+        <label id="Total_People"><i class="Number_People"></i>How many? <br> <br> </label>
+        <input type="number" id="people" placeholder="add the number of people">
+        <br>
+        <br>
+
+        <label id="tip"><i class="Tip_Total"></i>Feeling generous? <br> <br>
+        </label>
+        <div id="Tip_Buttons">
+          <input type="number" id="tip_Percent" placeholder="add % of the total">
+          <input type="number" id="tip_Custom" placeholder="add your custom tip">
+         </div>
+         <br>
+         <br>
+          
+         <div class="Buttons">
+           <label id="Split_Btn" onclick="CalculateTotal()">Split</label>
+           <label id="Reset_Btn" onclick="ClearFields()">Reset</label>  
+          </div>
+          <br>
+          <br>
+          <label id="Per_Person">0</label>
+          <br>
+          <br>
+          <br>
+          <br>
+        </form>
+      </div>
+</body>
+
+<script src="/bill.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+</html>

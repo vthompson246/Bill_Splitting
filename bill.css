@@ -1,0 +1,47 @@
+.header {
+  margin-left: 35%;
+  margin-top: 50px;
+  font-family: cursive;
+  font-size: xx-large;
+  color: white;
+}
+.Insert_Value {
+    margin-left: 30%;
+    font-size: medium;
+    color: white;
+}
+
+#tip_Percent {
+ margin-right: 10px;
+}
+
+#Split_Btn, #Reset_Btn {
+    background-color: red;
+    margin-left: 10px;
+    color: white;  
+    border-style: solid;  
+    border-color: black;
+    font-size: large;
+    font-family: fantasy;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+#Per_Person {
+    margin-left: 110px;
+    font-size: xx-large;
+    font-family: monospace;
+    color: aqua;
+}
+
+.wrapper { 
+    margin-left: 30%;
+    margin-right: 30%;
+    border:  3px solid black;
+    border-radius: 200px; 
+    background-color: black; 
+}
